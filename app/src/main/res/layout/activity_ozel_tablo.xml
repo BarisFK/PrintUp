@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan4"
+    tools:context=".tablo.OzelTabloActivity">
+
+    <ImageButton
+        android:id="@+id/imageview57"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="68dp"
+        android:onClick="beyazcerceve"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView68"
+        app:srcCompat="@drawable/beyazcerceve" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="45dp"
+        android:onClick="gumuscerceve"
+        app:layout_constraintStart_toStartOf="@+id/imageButton"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        app:srcCompat="@drawable/gumuscerceve" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Siyah Çerçeve"
+        app:layout_constraintEnd_toEndOf="@+id/imageView58"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="@+id/imageView58"
+        app:layout_constraintTop_toBottomOf="@+id/imageView58" />
+
+    <ImageView
+        android:id="@+id/imageView61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="30dp"
+        android:onClick="sepeteEkle"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton5"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton5"
+        app:srcCompat="@drawable/sepeteekletusu" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:text="Gümüş Çerçeve"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton4"
+        app:layout_constraintHorizontal_bias="0.204"
+        app:layout_constraintStart_toStartOf="@+id/imageButton4"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton4" />
+
+    <ImageButton
+        android:id="@+id/imageView58"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="30dp"
+        android:onClick="siyahcerceve"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.642"
+        app:layout_constraintStart_toEndOf="@+id/imageview57"
+        app:layout_constraintTop_toBottomOf="@+id/imageView67"
+        app:srcCompat="@drawable/siyahcerceve" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        android:text="Altın Çerçeve"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton5"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="@+id/imageButton5"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton5" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:onClick="cercevesiz"
+        android:text="Çerçevesiz"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton"
+        app:layout_constraintStart_toStartOf="@+id/imageButton"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="12dp"
+        android:onClick="altincerceve"
+        app:layout_constraintEnd_toEndOf="@+id/imageView58"
+        app:layout_constraintTop_toBottomOf="@+id/imageView58"
+        app:srcCompat="@drawable/altincerceve" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Beyaz Çerçeve"
+        app:layout_constraintEnd_toEndOf="@+id/imageview57"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="@+id/imageview57"
+        app:layout_constraintTop_toBottomOf="@+id/imageview57" />
+
+    <ImageView
+        android:id="@+id/imageView59"
+        android:layout_width="131dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:onClick="gorselYukle"
+        app:layout_constraintEnd_toEndOf="@+id/gorsel"
+        app:layout_constraintStart_toStartOf="@+id/gorsel"
+        app:layout_constraintTop_toBottomOf="@+id/cerceveRengi"
+        app:srcCompat="@drawable/gorselyukle" />
+
+    <ImageView
+        android:id="@+id/gorsel"
+        android:layout_width="349dp"
+        android:layout_height="215dp"
+        android:layout_marginBottom="18dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/cerceveRengi"
+        app:layout_constraintEnd_toEndOf="@+id/cerceveRengi"
+        app:layout_constraintStart_toStartOf="@+id/cerceveRengi"
+        app:layout_constraintTop_toTopOf="@+id/cerceveRengi"
+        app:srcCompat="@drawable/gorselyukleyiniz" />
+
+    <ImageView
+        android:id="@+id/imageView66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        app:layout_constraintStart_toStartOf="@+id/gorsel"
+        app:layout_constraintTop_toBottomOf="@+id/imageView59"
+        app:srcCompat="@drawable/grielips" />
+
+    <ImageView
+        android:id="@+id/imageView67"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        app:layout_constraintEnd_toEndOf="@+id/gorsel"
+        app:layout_constraintTop_toBottomOf="@+id/imageView59"
+        app:srcCompat="@drawable/grielips" />
+
+    <ImageView
+        android:id="@+id/imageView68"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView59"
+        app:layout_constraintStart_toStartOf="@+id/imageView59"
+        app:layout_constraintTop_toBottomOf="@+id/imageView59"
+        app:srcCompat="@drawable/grielips" />
+
+    <TextView
+        android:id="@+id/kucukBoyut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="5dp"
+        android:text="40 x 60 cm"
+        app:layout_constraintEnd_toEndOf="@+id/imageView66"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="@+id/imageView66"
+        app:layout_constraintTop_toTopOf="@+id/imageView66" />
+
+    <TextView
+        android:id="@+id/ortaBoyut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="60 x 90 cm"
+        app:layout_constraintEnd_toEndOf="@+id/imageView68"
+        app:layout_constraintStart_toStartOf="@+id/imageView68"
+        app:layout_constraintTop_toTopOf="@+id/imageView68" />
+
+    <TextView
+        android:id="@+id/buyukBoyut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="80 x 125 cm"
+        app:layout_constraintEnd_toEndOf="@+id/imageView67"
+        app:layout_constraintStart_toStartOf="@+id/imageView67"
+        app:layout_constraintTop_toTopOf="@+id/imageView67" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="3dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView68"
+        app:layout_constraintStart_toStartOf="@+id/imageView68"
+        app:layout_constraintTop_toBottomOf="@+id/imageView68" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="3dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView67"
+        app:layout_constraintStart_toStartOf="@+id/imageView67"
+        app:layout_constraintTop_toBottomOf="@+id/imageView67" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="3dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView66"
+        app:layout_constraintStart_toStartOf="@+id/imageView66"
+        app:layout_constraintTop_toBottomOf="@+id/imageView66" />
+
+    <ImageView
+        android:id="@+id/cerceveRengi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cerceveyok" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="45dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:longClickable="false"
+        android:onClick="cercevesiz"
+        app:layout_constraintEnd_toStartOf="@+id/imageview57"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView66"
+        app:srcCompat="@drawable/cercevesiz" />
+
+    <ImageView
+        android:id="@+id/imageView69"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView61"
+        app:layout_constraintTop_toTopOf="@+id/imageView61"
+        app:srcCompat="@drawable/yesilelips" />
+
+    <TextView
+        android:id="@+id/ozelFiyatText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:text="0"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView69"
+        app:layout_constraintEnd_toEndOf="@+id/imageView69"
+        app:layout_constraintStart_toStartOf="@+id/imageView69"
+        app:layout_constraintTop_toTopOf="@+id/imageView69" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="TL"
+        app:layout_constraintBottom_toBottomOf="@+id/ozelFiyatText"
+        app:layout_constraintStart_toEndOf="@+id/ozelFiyatText"
+        app:layout_constraintTop_toTopOf="@+id/ozelFiyatText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
