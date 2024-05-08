@@ -8,25 +8,27 @@ To run the project, you need to have the latest version of Android Studio instal
 
 ## Features
 
--User Authentication: Users can create accounts and log in using Firebase Authentication.
--Print Designing: Users can design prints by selecting photos from their galleries or cameras, and preview them live. They can choose options such as frame and size.
--Ready-made Products: Users can add ready-made products available in the app to their carts and purchase them.
--Order History: Users can view their past orders.
--Profile Management: Users can update their profile information and manage their addresses.
--Shopping Cart: Users can view the products in their carts, place orders, and clear their carts.
+-User Authentication: Users can create accounts and log in using Firebase Authentication.<br>
+-Print Designing: Users can design prints by selecting photos from their galleries or cameras, and preview them live. They can choose options such as frame and size.<br>
+-Ready-made Products: Users can add ready-made products available in the app to their carts and purchase them.<br>
+-Order History: Users can view their past orders.<br>
+-Profile Management: Users can update their profile information and manage their addresses.<br>
+-Shopping Cart: Users can view the products in their carts, place orders, and clear their carts.<br>
 
 ## Ekran görüntüleri
-<img src="https://github.com/BarisFK/PrintUp/assets/92215497/ead1f62e-57c8-4023-96c7-d7136c6dada4" width="200" height="400" />
-<img src="https://github.com/BarisFK/PrintUp/assets/92215497/00a4208a-7a5b-4769-a6e8-9c9ee6dbdb6a" width="200" height="400" />
-<img src="https://github.com/BarisFK/PrintUp/assets/92215497/98e9efac-e6b0-48fd-9726-1cc4a8a38f36" width="200" height="400" />
-<img src="https://github.com/BarisFK/PrintUp/assets/92215497/d1799ab0-088e-486a-9819-1ca729b3ee9b" width="200" height="400" />
-<img src="https://github.com/BarisFK/PrintUp/assets/92215497/2f46b483-6260-4154-aa3c-c42e84d82473" width="200" height="400" />
-<img src="https://github.com/BarisFK/PrintUp/assets/92215497/2f3c2715-6d9e-4d9f-98d2-b8cdebb66c93" width="200" height="400" />
-<img src="https://github.com/BarisFK/PrintUp/assets/92215497/068b0ef6-a9e9-4ee9-bc72-0380321b610d" width="200" height="400" />
-<img src="https://github.com/BarisFK/PrintUp/assets/92215497/3627a400-d89d-4be6-9697-a38df3a5870c" width="200" height="400" />
-<img src="https://github.com/BarisFK/PrintUp/assets/92215497/3479a4e0-2afd-45aa-9bb1-75e5e6023087" width="200" height="400" />
-<img src="https://github.com/BarisFK/PrintUp/assets/92215497/e72fbeb1-26e2-49ed-b97d-e0957afb102f" width="200" height="400" />
-<img src="https://github.com/BarisFK/PrintUp/assets/92215497/8d3308bf-ae9e-4bea-8ef6-fb52947ca2e0" width="200" height="400" />
+<img src="https://github.com/BarisFK/PrintUp/assets/92215497/7c7071ed-87c6-419d-a897-6e1e2264ef53" width="200" height="400" />
+<img src="https://github.com/BarisFK/PrintUp/assets/92215497/8e256c72-3eb6-453b-a8b2-e2e55095aaef" width="200" height="400" />
+<img src="https://github.com/BarisFK/PrintUp/assets/92215497/ca680e27-8ade-4c16-95ad-d9fb1bd892b2" width="200" height="400" />
+<img src="https://github.com/BarisFK/PrintUp/assets/92215497/ffe7b626-b729-4c59-a5bb-18443284376e" width="200" height="400" />
+<img src="https://github.com/BarisFK/PrintUp/assets/92215497/31c8bcaa-ebf4-4502-81fa-59509732c1af" width="200" height="400" />
+<img src="https://github.com/BarisFK/PrintUp/assets/92215497/405bbad1-803d-4f5a-a7e9-d1e25059d088" width="200" height="400" />
+<img src="https://github.com/BarisFK/PrintUp/assets/92215497/40727705-6b5e-4366-90ba-2a32115f9e15" width="200" height="400" />
+<img src="https://github.com/BarisFK/PrintUp/assets/92215497/45282e83-82a7-40fb-81d5-7954187852d0" width="200" height="400" />
+<img src="https://github.com/BarisFK/PrintUp/assets/92215497/2f3fed60-8961-45da-885c-88233af35eaf" width="200" height="400" />
+<img src="https://github.com/BarisFK/PrintUp/assets/92215497/a516a5f0-914a-4726-9a06-2d58975748a2" width="200" height="400" />
+<img src="https://github.com/BarisFK/PrintUp/assets/92215497/a3fc3893-040f-4280-832d-99f8fd0786af" width="200" height="400" />
+<img src="https://github.com/BarisFK/PrintUp/assets/92215497/b772b4c0-b1f2-4fbc-ab72-9ed1c085acc9" width="200" height="400" />
+
 
 
 
