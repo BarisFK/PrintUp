@@ -15,7 +15,7 @@ To run the project, you need to have the latest version of Android Studio instal
 -Profile Management: Users can update their profile information and manage their addresses.<br>
 -Shopping Cart: Users can view the products in their carts, place orders, and clear their carts.<br>
 
-## Ekran görüntüleri
+## Screenshots
 <img src="https://github.com/BarisFK/PrintUp/assets/92215497/7c7071ed-87c6-419d-a897-6e1e2264ef53" width="200" height="430" />
 <img src="https://github.com/BarisFK/PrintUp/assets/92215497/8e256c72-3eb6-453b-a8b2-e2e55095aaef" width="200" height="430" />
 <img src="https://github.com/BarisFK/PrintUp/assets/92215497/ca680e27-8ade-4c16-95ad-d9fb1bd892b2" width="200" height="430" />
