@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan4"
+    tools:context=".odeme.OdemeSayfasiActivity">
+
+    <ImageView
+        android:id="@+id/imageView62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:srcCompat="@drawable/yesilcizgi" />
+
+    <ImageView
+        android:id="@+id/imageView73"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/yesilcizgi" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="serif"
+        android:text="Ödeme Bilgileri"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView62"
+        app:srcCompat="@drawable/grielipsbuyuk" />
+
+    <EditText
+        android:id="@+id/kartisimText"
+        android:layout_width="325dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/imageView72"
+        app:layout_constraintStart_toStartOf="@+id/imageView72"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="22dp"
+        android:text="Kart üzerindeki isim"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/kartisimText"
+        app:layout_constraintTop_toTopOf="@+id/imageView72" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
+        android:text="Kart numarası"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/kartnoText"
+        app:layout_constraintTop_toBottomOf="@+id/kartisimText" />
+
+    <EditText
+        android:id="@+id/kartnoText"
+        android:layout_width="325dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="22dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/imageView72"
+        app:layout_constraintStart_toStartOf="@+id/imageView72"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <EditText
+        android:id="@+id/cvvText"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:hint="CVV"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/kartnoText"
+        app:layout_constraintTop_toBottomOf="@+id/kartnoText" />
+
+    <EditText
+        android:id="@+id/karttarihiText"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:hint="01/28"
+        android:inputType="date"
+        app:layout_constraintEnd_toStartOf="@+id/cvvText"
+        app:layout_constraintTop_toBottomOf="@+id/kartnoText" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="serif"
+        android:text="Kart Bilgileri"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView72"
+        app:layout_constraintStart_toStartOf="@+id/imageView72" />
+
+    <ImageView
+        android:id="@+id/imageView75"
+        android:layout_width="374dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="85dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView72"
+        app:srcCompat="@drawable/grielipsbuyuk" />
+
+    <TextView
+        android:id="@+id/adres1Text"
+        android:layout_width="351dp"
+        android:layout_height="70dp"
+        android:fontFamily="serif"
+        android:hint="Adres satırı 1"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView75"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView75" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="serif"
+        android:text="Adres Bilgileri"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView75"
+        app:layout_constraintStart_toStartOf="@+id/imageView75" />
+
+    <ImageView
+        android:id="@+id/imageView76"
+        android:layout_width="216dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="10dp"
+        android:onClick="onayla"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView73"
+        app:srcCompat="@drawable/yesiluzuncizgi" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onayla"
+        android:text="Onayla"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView76"
+        app:layout_constraintEnd_toEndOf="@+id/imageView76"
+        app:layout_constraintStart_toStartOf="@+id/imageView76"
+        app:layout_constraintTop_toTopOf="@+id/imageView76" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profil.AdresDuzenleActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Adres Bilgileri"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/yesilcizgi" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView55"
+        app:srcCompat="@drawable/yesilcizgi" />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:onClick="guncelle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView37"
+        app:srcCompat="@drawable/guncellebutonu" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:onClick="geriTusu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView37"
+        app:srcCompat="@drawable/geritusu" />
+
+    <ImageView
+        android:id="@+id/imageView50"
+        android:layout_width="wrap_content"
+        android:layout_height="93dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView36"
+        app:srcCompat="@drawable/sehir" />
+
+    <ImageView
+        android:id="@+id/imageView54"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView51"
+        app:srcCompat="@drawable/cepno" />
+
+    <ImageView
+        android:id="@+id/imageView51"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView52"
+        app:srcCompat="@drawable/postakodu" />
+
+    <ImageView
+        android:id="@+id/imageView52"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView53"
+        app:srcCompat="@drawable/mahalle" />
+
+    <ImageView
+        android:id="@+id/imageView53"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView50"
+        app:srcCompat="@drawable/ilce" />
+
+    <ImageView
+        android:id="@+id/imageView55"
+        android:layout_width="368dp"
+        android:layout_height="125dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView54"
+        app:srcCompat="@drawable/acikadres" />
+
+    <EditText
+        android:id="@+id/cepnoText"
+        android:layout_width="285dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint=" 05__(___)(____)"
+        android:inputType="phone"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView54"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView54" />
+
+    <EditText
+        android:id="@+id/postaText"
+        android:layout_width="285dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView51"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView51" />
+
+    <EditText
+        android:id="@+id/sehirText"
+        android:layout_width="285dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView50"
+        app:layout_constraintEnd_toEndOf="@+id/imageView50"
+        app:layout_constraintStart_toStartOf="@+id/imageView50"
+        app:layout_constraintTop_toTopOf="@+id/imageView50" />
+
+    <EditText
+        android:id="@+id/ilceText"
+        android:layout_width="285dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView53"
+        app:layout_constraintEnd_toEndOf="@+id/imageView53"
+        app:layout_constraintStart_toStartOf="@+id/imageView53"
+        app:layout_constraintTop_toTopOf="@+id/imageView53" />
+
+    <EditText
+        android:id="@+id/mahalleText"
+        android:layout_width="285dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView52"
+        app:layout_constraintEnd_toEndOf="@+id/imageView52"
+        app:layout_constraintStart_toStartOf="@+id/imageView52"
+        app:layout_constraintTop_toTopOf="@+id/imageView52" />
+
+    <EditText
+        android:id="@+id/acikadresText"
+        android:layout_width="285dp"
+        android:layout_height="050dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="apartman, daire, bina, kat vb."
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView55"
+        app:layout_constraintEnd_toEndOf="@+id/imageView55"
+        app:layout_constraintStart_toStartOf="@+id/imageView55"
+        app:layout_constraintTop_toTopOf="@+id/imageView55" />
+
+    <ImageView
+        android:id="@+id/imageView74"
+        android:layout_width="76dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="16dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView38"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView38"
+        app:srcCompat="@drawable/yesilelips" />
+
+    <ImageView
+        android:id="@+id/imageView49"
+        android:layout_width="76dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="konumgoster"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView38"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView38"
+        app:srcCompat="@drawable/konumikon" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
